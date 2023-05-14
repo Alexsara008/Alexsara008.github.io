@@ -1,0 +1,49 @@
+
+.h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-ldu:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    background-color: black;
+}
+
+
+
+
+@media (max-width: 720px) {
+    .navbar{
+        position: fixed;
+        width: 100%;
+    }
+}
+
+ul{
+    list-style: none; /* para quitar los puntos de la lista */
+}
+
+h3{
+    color: rgb(19, 20, 20);
+    background-color: rgb(61, 90, 221);
+    color: aliceblue;
+    text-shadow: -2px -1px 0 #0c0c0c; /* para borde  */
+    border-radius: 5px;
+}
+
+h3:hover{
+    background-color: rgb(10, 41, 179);
+}
+
+h4{
+    background-color: rgb(7, 116, 12);
+    color: aliceblue;
+    text-shadow: -2px -1px 0 #0c0c0c; /* para borde  */
+    border-radius: 7px;
+}
+
+h4:hover{
+    background-color: rgb(10, 155, 66);
+}
